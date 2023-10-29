@@ -10,13 +10,6 @@ fisher install jorgebucaran/fisher
 # oh-my-fish
 curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
 
-# theme
-# fish -c "omf install johanson"
-omf install bobthefish
-set -g theme_nerd_fonts yes
-
-omf install https://github.com/sentriz/fish-pipenv
-
 # z
 fisher install jethrokuan/z
 
@@ -41,3 +34,7 @@ echo "alias vi=nvim" >> ~/.config/fish/config.fish
 set -U fish_user_paths /usr/local/bin $fish_user_paths
 set -U fish_user_paths /opt/nvim/bin $fish_user_paths
 
+# omf install johanson
+# omf install bobthefish
+omf install plain
+omf install https://github.com/sentriz/fish-pipenv
