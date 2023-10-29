@@ -1,11 +1,6 @@
 #!/usr/bin/bash
 
-sed -i 's/\r$//' install.sh
-sed -i 's/\r$//' install.fish
-sed -i 's/\r$//' install_linux.sh
-
 sudo apt update
-
 sudo apt install -y \
 	npm \
 	nodejs \
