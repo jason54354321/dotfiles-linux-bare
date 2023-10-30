@@ -22,7 +22,7 @@ chmod +x ~/dotfiles-linux-bare/install.sh
 ~/dotfiles-linux-bare/install.sh 
 
 chmod +x ~/dotfiles-linux-bare/install.fish
-fish && fish ~/dotfiles-linux-bare/install.fish
+fish ~/dotfiles-linux-bare/install.fish
 ```
 
 ## Known issue
