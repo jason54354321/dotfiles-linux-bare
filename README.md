@@ -26,4 +26,5 @@ fish ~/dotfiles-linux-bare/install.fish
 ```
 
 ## Known issue
-1. fish theme wont apply correctly
+1. fish theme wont apply correctly.
+2. needs to press <c-d> once in install progress.
