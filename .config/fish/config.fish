@@ -11,6 +11,7 @@ end
 
 
 # theme
+oh-my-posh init fish --config '~/dotfiles-linux-bare/amro-edited.omp.json' | source
 set -g theme_display_user yes
 set -g theme_nerd_fonts yes
 set -g theme_date_format "+%a %H:%M"
