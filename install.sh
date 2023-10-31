@@ -58,5 +58,3 @@ sudo cp *.a /usr/lib
 sudo groupadd docker
 sudo usermod -aG docker $USER
 newgrp docker
-
-exit
