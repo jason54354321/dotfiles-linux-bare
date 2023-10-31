@@ -2,7 +2,7 @@
 
 # set defalut shell
 chsh -s (which fish)
-curl -s https://ohmyposh.dev/install.sh | bash -s
+curl -s https://ohmyposh.dev/install.sh | sudo bash -s
 oh-my-posh init fish --config '~/dotfiles-linux-bare/amro-edited.omp.json' | source
 
 # fisher
