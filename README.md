@@ -31,3 +31,4 @@ git clone https://github.com/jason54354321/dotfiles-linux-bare.git && chmod +x ~
 ## Known issue
 1. fish theme wont apply correctly.
 2. needs to press <c-d> once in install progress.
+3. tmux is not the newest version(currently is 3.2a, published at 2021y)
