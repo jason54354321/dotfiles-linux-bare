@@ -25,6 +25,7 @@ sudo mv exa/bin/exa /usr/local/bin
 fisher install gazorby/fish-exa
 
 # apply dotfiles
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 fish -c "sudo apt install -y tmux"
 fish -c "sudo apt install -y peco"
 
