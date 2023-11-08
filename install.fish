@@ -19,8 +19,7 @@ fisher install jethrokuan/z
 sudo curl -LO https://github.com/ogham/exa/releases/download/v0.10.0/exa-linux-x86_64-v0.10.0.zip
 sudo mkdir exa
 sudo unzip exa-linux-x86_64-v0.10.0.zip -d exa
-sudo mv exa /usr/local/bin
-set -U fish_user_paths /usr/local/bin/exa/bin $fish_user_paths
+sudo mv exa/bin/exa /usr/local/bin
 
 # fish exa alias
 fisher install gazorby/fish-exa
