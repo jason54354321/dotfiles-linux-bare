@@ -8,6 +8,9 @@ curl -s https://ohmyposh.dev/install.sh | sudo bash -s
 curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fisher.fish | source
 fisher install jorgebucaran/fisher
 
+# oh-my-fish
+curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
+
 # z
 fisher install jethrokuan/z
 
@@ -15,14 +18,11 @@ fisher install jethrokuan/z
 sudo apt install exa
 sudo curl -LO https://github.com/ogham/exa/releases/download/v0.10.0/exa-linux-x86_64-v0.10.0.zip
 mkdir exa
-unzip exa -d exa
+unzip exa-linux-x86_64-v0.10.0.zip -d exa
 sudo mv exa /usr/local/bin
 set -U fish_user_paths /usr/local/bin/exa/bin $fish_user_paths
 
 # fish exa alias
-fisher install gazorby/fish-exa
-
-# exa alias
 fisher install gazorby/fish-exa
 
 # apply dotfiles
