@@ -18,10 +18,9 @@ Preinstalled:
 ```bash
 git clone https://github.com/jason54354321/dotfiles-linux-bare.git
 
-chmod +x ~/dotfiles-linux-bare/install.sh 
-~/dotfiles-linux-bare/install.sh
+chmod +x ~/dotfiles-linux-bare/install.sh && chmod +x ~/dotfiles-linux-bare/install.fish
 
-chmod +x ~/dotfiles-linux-bare/install.fish
+~/dotfiles-linux-bare/install.sh
 fish ~/dotfiles-linux-bare/install.fish
 
 # One lineer
