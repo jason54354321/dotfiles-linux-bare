@@ -31,4 +31,7 @@ cp -r dotfiles-linux-bare/.config/* ./.config/
 echo "alias vi=nvim" >> ~/.config/fish/config.fish
 set -U fish_user_paths /usr/local/bin $fish_user_paths
 set -U fish_user_paths /opt/nvim/bin $fish_user_paths
+
+# source all configuration
+tmux source ~/.config/tmux/tmux.conf
 source ~/.config/fish/config.fish
