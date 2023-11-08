@@ -17,8 +17,8 @@ fisher install jethrokuan/z
 # exa
 # sudo apt install exa
 sudo curl -LO https://github.com/ogham/exa/releases/download/v0.10.0/exa-linux-x86_64-v0.10.0.zip
-mkdir exa
-unzip exa-linux-x86_64-v0.10.0.zip -d exa
+sudo mkdir exa
+sudo unzip exa-linux-x86_64-v0.10.0.zip -d exa
 sudo mv exa /usr/local/bin
 set -U fish_user_paths /usr/local/bin/exa/bin $fish_user_paths
 
@@ -38,6 +38,7 @@ set -U fish_user_paths /usr/local/bin $fish_user_paths
 set -U fish_user_paths /opt/nvim/bin $fish_user_paths
 
 
-# source all configuration
-tmux source ~/.config/tmux/tmux.conf
 source ~/.config/fish/config.fish
+# tmux should source most lastly
+tmux source ~/.config/tmux/tmux.conf
+
