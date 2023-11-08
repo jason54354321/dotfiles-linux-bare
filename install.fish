@@ -13,6 +13,11 @@ fisher install jethrokuan/z
 
 # exa
 sudo apt install exa
+sudo curl -LO https://github.com/ogham/exa/releases/download/v0.10.0/exa-linux-x86_64-v0.10.0.zip
+mkdir exa
+unzip exa -d exa
+sudo mv exa /usr/local/bin
+set -U fish_user_paths /usr/local/bin/exa/bin $fish_user_paths
 
 # fish exa alias
 fisher install gazorby/fish-exa
@@ -31,6 +36,7 @@ cp -r dotfiles-linux-bare/.config/* ./.config/
 echo "alias vi=nvim" >> ~/.config/fish/config.fish
 set -U fish_user_paths /usr/local/bin $fish_user_paths
 set -U fish_user_paths /opt/nvim/bin $fish_user_paths
+
 
 # source all configuration
 tmux source ~/.config/tmux/tmux.conf
