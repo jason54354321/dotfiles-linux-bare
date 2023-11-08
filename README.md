@@ -29,5 +29,5 @@ git clone https://github.com/jason54354321/dotfiles-linux-bare.git && chmod +x ~
 ```
 
 ## Known issue
-1. needs to press <c-d> once in install progress.
+1. needs to press "ctrl-d" once in install progress.
 2. tmux is not the newest version(currently is 3.2a, published at 2021y)
