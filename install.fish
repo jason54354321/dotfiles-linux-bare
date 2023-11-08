@@ -15,7 +15,7 @@ curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install 
 fisher install jethrokuan/z
 
 # exa
-sudo apt install exa
+# sudo apt install exa
 sudo curl -LO https://github.com/ogham/exa/releases/download/v0.10.0/exa-linux-x86_64-v0.10.0.zip
 mkdir exa
 unzip exa-linux-x86_64-v0.10.0.zip -d exa
