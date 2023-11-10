@@ -40,4 +40,8 @@ set -U fish_user_paths /opt/nvim/bin $fish_user_paths
 tmux source ~/.config/tmux/tmux.conf
 source ~/.config/fish/config.fish
 
+# git dotfiles' bare repo
+git init --bare $HOME/dotfiles
+config config --local status.showUntrackedFiles no
+
 
