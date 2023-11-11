@@ -26,7 +26,7 @@ fisher install gazorby/fish-exa
 
 # tmux
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
-curl -LO https://github.com/nelsonenzo/tmux-appimage/releases/download/3.3a/tmux.appimage
+sudo curl -LO https://github.com/nelsonenzo/tmux-appimage/releases/download/3.3a/tmux.appimage
 sudo chmod +x tmux.appimage
 sudo mv tmux.appimage /usr/bin/tmux
 
