@@ -24,11 +24,16 @@ sudo mv exa/bin/exa /usr/local/bin
 # fish exa alias
 fisher install gazorby/fish-exa
 
-# apply dotfiles
+# tmux
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
-fish -c "sudo apt install -y tmux"
-fish -c "sudo apt install -y peco"
+curl -LO https://github.com/nelsonenzo/tmux-appimage/releases/download/3.3a/tmux.appimage
+sudo chmod +x tmux.appimage
+sudo mv tmux.appimage /usr/bin/tmux
 
+# peco
+sudo apt install -y peco
+
+# apply dotfiles
 cd ~
 cp -r dotfiles-linux-bare/.config/* ./.config/
 
