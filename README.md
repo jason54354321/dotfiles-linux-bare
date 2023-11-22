@@ -26,4 +26,5 @@ fish ~/dotfiles-linux-bare/install.fish
 
 ## Known issue
 1. needs to press "ctrl-d" once in install progress.
-2. place install script in a folder, or the home dir becomes messy. 
+2. place install script in a folder, or the home dir becomes messy.
+3. Installed golang is older version `1.13`, which has error when using `go install` command
