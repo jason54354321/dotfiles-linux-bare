@@ -19,7 +19,7 @@ sudo apt install -y \
 
 # git config
 git config --global user.email "su3g4196ta8@gmail.com"
-git config --global user.name "Jason"
+git config --global user.name "Gustavo"
 git config --global core.editor "vim"
 git config --global pull.rebase true
 
