@@ -15,6 +15,7 @@ sudo apt install -y \
 	ripgrep \
 	python3-pip \
 	fd-find \
+ 	xclip \
 	golang
 
 # git config
