@@ -2,7 +2,7 @@
 
 # set defalut shell
 chsh -s (which fish)
-curl -s https://ohmyposh.dev/install.sh | bash -s -- -d /usr/local/bin
+curl -s https://ohmyposh.dev/install.sh | sudo bash -s -- -d /usr/local/bin
 
 # fisher
 curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fisher.fish | source
