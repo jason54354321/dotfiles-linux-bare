@@ -18,6 +18,12 @@ sudo apt install -y \
  	xclip \
 	golang
 
+# Install ghq
+curl -LO https://github.com/x-motemen/ghq/releases/download/v1.6.2/ghq_linux_amd64.zip
+unzip ghq_linux_amd64.zip && sudo mv ghq_linux_amd64/ghq /usr/local/bin
+rm -rf ghq_linux_amd64.zip && rm -rf ghq_linux_amd64/ 
+
+
 # git config
 git config --global user.email "su3g4196ta8@gmail.com"
 git config --global user.name "Gustavo"
