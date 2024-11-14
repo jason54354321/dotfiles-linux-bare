@@ -4,7 +4,7 @@ Welcome to my linux dotfiles!
 
 ## Overview
 The following tools will be installed:
-* [neovim](https://github.com/jason54354321/nvim-config/tree/refactor/lazy.vim)
+* neovim [(with personal configuration)](https://github.com/jason54354321/nvim-config/tree/refactor/lazy.vim)
 * **fish**
 * **tmux**
 * **peco**
