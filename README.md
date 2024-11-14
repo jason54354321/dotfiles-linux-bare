@@ -1,18 +1,19 @@
 # dotfiles-linux-bare
-> currently work in progress
+Welcome to my linux dotfiles!
 
-Preinstalled:
+
+## Overview
+The following tools will be installed:
+* [neovim](https://github.com/jason54354321/nvim-config/tree/refactor/lazy.vim)
 * **fish**
 * **tmux**
 * **peco**
-* **nvim**
 * golang
 * c++
   * g++
   * gtest
   * cmake
 * python
-* etc...
 
 ## Install
 ```bash
